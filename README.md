@@ -4,7 +4,7 @@ Price optimization is the use of mathematical analysis by a company to determine
 
 ## Libraries
 
-In application we use next libraries:
+In the application we use the next libraries:
 
 * shiny
 * shinyjs
@@ -22,7 +22,7 @@ In application we use next libraries:
 
 ## Dataset
 
-You can download initial dataset from [Dunnhumby](https://www.dunnhumby.com), we use dataset [Breakfast at the Frat](https://www.dunnhumby.com/sourcefiles).
+You can download an initial dataset from [Dunnhumby](https://www.dunnhumby.com), we use dataset [Breakfast at the Frat](https://www.dunnhumby.com/sourcefiles).
 
 ## Application look
 
