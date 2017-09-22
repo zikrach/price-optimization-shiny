@@ -1,0 +1,31 @@
+.shiny-progress-container{
+    padding-top:30%;
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(240,240,240, 0.4);
+    background-image: url('images/box.gif');
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.shiny-progress-container .progress-text{
+  position:relative;
+  margin:auto;
+  background-color: rgba(240,240,240, 0.0);
+}
+
+/* Inputs in the sidebar */
+section.sidebar .shiny-input-container {
+  /* Proper spacing around inputs. */
+  padding: 0px 15px 0px 12px !important;
+  /* Wrap content (important for inline inputs). */
+  white-space: normal;
+}
+
+h4#custom_header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}

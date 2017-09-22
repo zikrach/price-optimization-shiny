@@ -31,3 +31,8 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# DS store
+.DS_Store
+data/.DS_Store
+functions/.DS_Store
