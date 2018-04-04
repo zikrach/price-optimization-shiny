@@ -29,3 +29,23 @@ You can download an initial dataset from [Dunnhumby](https://www.dunnhumby.com),
 <img src="img/1.png" alt="1.png" style="width: 900px;"/>
 <img src="img/2.png" alt="2.png" style="width: 900px;"/>
 <img src="img/3.png" alt="3.png" style="width: 900px;"/>
+
+## Docker install ##
+
+1. Get application source code:
+```bash
+git clone https://github.com/zikrach/price-optimization-shiny
+cd price-optimization-shiny/
+```
+
+2. Build docker image:
+```bash
+docker build -t price_optimization .
+```
+
+3. Run docker image:
+```bash
+docker run --rm -p 3838:3838 price_optimization
+```
+
+4. Open your favorite browser and navigate to the `http://127.0.0.1:3838/price_optimization/`
